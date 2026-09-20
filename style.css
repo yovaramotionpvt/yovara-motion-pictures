@@ -1,4 +1,4 @@
-/* Yovara Motion Pictures - Final Fixed Cinematic Dark Theme */
+/* Yovara Motion Pictures - Center Hero Poster & Bright Fonts */
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 
 html, body {
     background-color: #0b0f19 !important;
-    color: #ffffff !important;
+    color: #f8fafc !important;
     width: 100%;
     overflow-x: hidden;
 }
@@ -36,7 +36,7 @@ header {
 }
 
 nav a {
-    color: #cbd5e1;
+    color: #f1f5f9;
     text-decoration: none;
     margin-left: 30px;
     font-size: 1rem;
@@ -47,47 +47,72 @@ nav a:hover {
     color: #38bdf8;
 }
 
+/* Centered Hero Section with Cinematic Poster */
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 20px;
+    padding: 120px 20px 60px 20px;
     background: #0b0f19 !important;
 }
 
 .badge {
-    background: rgba(56, 189, 248, 0.1);
+    background: rgba(56, 189, 248, 0.15);
     color: #38bdf8;
-    padding: 6px 16px;
+    padding: 8px 20px;
     border-radius: 20px;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    font-weight: 600;
     margin-bottom: 20px;
-    border: 1px solid rgba(56, 189, 248, 0.3);
+    border: 1px solid rgba(56, 189, 248, 0.4);
 }
 
 .hero h1 {
     font-size: 3.8rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #ffffff;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .hero p {
     font-size: 1.2rem;
-    max-width: 600px;
-    color: #94a3b8;
+    max-width: 650px;
+    color: #cbd5e1;
     margin-bottom: 30px;
+}
+
+/* Big Hero Cinematic Poster Container */
+.hero-poster-container {
+    width: 100%;
+    max-width: 850px;
+    margin-top: 20px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.hero-poster-container img {
+    width: 100%;
+    height: auto;
+    max-height: 480px;
+    object-fit: cover;
+    display: block;
 }
 
 .btn {
     background: #38bdf8;
     color: #0b0f19;
     padding: 12px 30px;
-    border-radius: 4px;
+    border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s ease;
 }
 
 .btn:hover {
@@ -146,7 +171,7 @@ section {
 
 .bts-card img {
     width: 100%;
-    aspect-ratio: 4 / 5; /* Instagram Post Portrait Ratio */
+    aspect-ratio: 4 / 5;
     object-fit: cover;
     border-radius: 8px;
     display: block;
@@ -170,7 +195,7 @@ footer {
     text-align: center;
     padding: 30px;
     background: #070913 !important;
-    color: #64748b;
+    color: #94a3b8;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
