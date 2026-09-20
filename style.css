@@ -185,3 +185,21 @@ footer {
         padding: 60px 20px;
     }
 }
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 90px 10px 30px 10px !important;
+        min-height: auto !important;
+    }
+    .hero-poster-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+    }
+    .hero-poster-container img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+}
