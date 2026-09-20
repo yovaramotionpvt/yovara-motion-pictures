@@ -1,4 +1,4 @@
-/* style.css - Updated Cinematic Styling */
+/* style.css - Final Cinematic Theme Fix */
 
 * {
     margin: 0;
@@ -54,7 +54,7 @@ nav a:hover {
     align-items: center;
     text-align: center;
     padding: 0 20px;
-    background: linear-gradient(rgba(11, 15, 25, 0.7), rgba(11, 15, 25, 0.9)), no-repeat center center/cover;
+    background: linear-gradient(rgba(11, 15, 25, 0.7), rgba(11, 15, 25, 0.9)), #0b0f19;
 }
 
 .badge {
@@ -71,6 +71,7 @@ nav a:hover {
     font-size: 3.5rem;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    color: #ffffff;
 }
 
 .hero p {
