@@ -1,4 +1,4 @@
-/* style.css - Final Cinematic Theme Fix */
+/* style.css - Yovara Motion Pictures Final Cinematic Polish */
 
 * {
     margin: 0;
@@ -54,7 +54,7 @@ nav a:hover {
     align-items: center;
     text-align: center;
     padding: 0 20px;
-    background: linear-gradient(rgba(11, 15, 25, 0.7), rgba(11, 15, 25, 0.9)), #0b0f19;
+    background: linear-gradient(rgba(11, 15, 25, 0.75), rgba(11, 15, 25, 0.95)), #0b0f19;
 }
 
 .badge {
@@ -68,7 +68,7 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     margin-bottom: 20px;
     letter-spacing: 1px;
     color: #ffffff;
